@@ -4,7 +4,6 @@ const mongoose = require("mongoose")
 const PORT = 8000;
 const app = express()
 const jwt = require('jsonwebtoken');
-// const bcrypt = require('bcryptjs');
 const secretKey = "secretKey"
 
 app.use(cors())
